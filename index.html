@@ -1,18 +1,82 @@
 <!doctype html>
 <html lang="en">
   <head>
-      <title>My Webpage</title>
+     
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet"  href="styles.css">
+    <title>My Webpage</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+
+    
+    <!--Nav Bar-------------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto" >
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="paris.html">Paris</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Iceland</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Palawan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hong Kong</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <h1>Cool places i've been to!</h1>
+    <!--Grid showing the 4 places-->
+
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-6">
+                <div class="place">
+                  <div class="view overlay zoom">
+                    <a href="paris.html"><img id="paris" src="img/paris7.jpg" style="height: 395px" width="535px" class="img-fluid " alt="smaple image"></a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="place">
+                  <img id="ph" src="img/ph3.JPG" style="height: 395px" width="535px" >  
+                  
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-6">
+              <div class="place">
+                <img id="ice" src="img/iceland1.jpeg" style="height: 395px" width="535px">
+                
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="place">
+                  <img id="hk" src="img/hongkong.JPG" style="height: 395px" width="535px">
+              </div>
+            </div>
+        </div>
+            
+    </div>
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
