@@ -19,3 +19,11 @@ h1 {
      padding-left: 10px;
  }
 
+ 
+
+ @media print {
+     .screen-only{
+         display: none;
+     }
+ }
+
